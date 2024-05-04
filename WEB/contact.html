@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to MK Journalists</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to MK Journalists</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="work.html">Work</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+   <section>
+    <h2>Book Appointment</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="reason">Reason for Booking:</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+
+    <footer>
+        <p>&copy; 2024 MK Journalists. All rights reserved.</p>
+    </footer>
+</body>
+</html>
